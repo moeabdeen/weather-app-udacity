@@ -1,10 +1,19 @@
-# Weather-Journal App Project
+# Weather Journal App ☔
 
 ## Overview
-This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI. 
+This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI. This is done through:
+    - establishing a locale node server.
+    - collecting data from user.
+    - using OpenWeatherMap api to collect weather data.
+    - Added POST and GET routes to retrieve data from the server.
+    - Created async functions to fetch weather data and store locally.
+    - Update Ui dynamically.
 
-## Instructions
-This will require modifying the `server.js` file and the `website/app.js` file. You can see `index.html` for element references, and once you are finished with the project steps, you can use `style.css` to style your application to customized perfection.
-
-## Extras
-If you are interested in testing your code as you go, you can use `tests.js` as a template for writing and running some basic tests for your code.
+## Files:
+    - server.js file which contains serverside code.
+    - app.js which contains clientside code.
+    - index.html
+    - style.css
+    - package.json and package-lock.json
+    -node_modules folder which should contain all the dependencies and data necessary to run the server.
+    - and of course, the readme file
