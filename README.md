@@ -15,5 +15,5 @@ This project requires you to create an asynchronous web app that uses Web API an
     - index.html
     - style.css
     - package.json and package-lock.json
-    -node_modules folder which should contain all the dependencies and data necessary to run the server.
+    - don't forget to install the dependencies needed to run the project (express, cors, body-parser)
     - and of course, the readme file
